@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div class="sidebar-friends-menu">
     
   </div>
 </template>
@@ -17,12 +17,16 @@ import { Options, Vue } from 'vue-class-component';
     }
   }
 })
-export default class HelloWorld extends Vue {
+export default class SideBarFriendsMenu extends Vue {
  
 }
 </script>
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
+
+.sidebar-friends-menu{
+    
+}
 
 </style>

@@ -1,7 +1,6 @@
 <template>
   <div class="home">
-    <AppHeader :links="links"></AppHeader>
-    <AppSideBar class="shadow-lg"></AppSideBar>
+    <AppHeader :links="headerLinks"></AppHeader>
   </div>
 </template>
 
@@ -16,9 +15,9 @@ import AppSideBar from '../components/layout/Sidebar/AppSideBar.vue';
     AppHeader,
     AppSideBar
   },
-  data: () => {
+  data: () =>{
     return {
-      links: ['login','register']
+        headerLinks: ['/','register'] as Array<String>
     }
   }
 })

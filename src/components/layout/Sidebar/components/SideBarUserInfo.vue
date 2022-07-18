@@ -1,5 +1,5 @@
 <template>
-  <div class="">
+  <div id="sidebar-user-info">
     
   </div>
 </template>
@@ -17,7 +17,7 @@ import { Options, Vue } from 'vue-class-component';
     }
   }
 })
-export default class HelloWorld extends Vue {
+export default class SideBarUserInfo extends Vue {
  
 }
 </script>
@@ -25,4 +25,6 @@ export default class HelloWorld extends Vue {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped lang="scss">
 
+#sidebar-user-info{
+}
 </style>
