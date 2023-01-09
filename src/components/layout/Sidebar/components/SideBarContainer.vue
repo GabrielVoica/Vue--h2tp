@@ -46,7 +46,7 @@ export default class SideBarContainer extends Vue {
     top: 0;
     left: 0;
     border-radius: 6px;
-    background: rgb(68, 43, 117);
+    background: var(--sidebar-container-header-background);
     border-bottom-right-radius: 0;
     border-bottom-left-radius: 0;
     font-size: 11px;

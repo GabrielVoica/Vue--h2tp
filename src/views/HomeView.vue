@@ -1,7 +1,8 @@
 <template>
-  <div class="home">
+  <div id="home" class="home">
     <AppHeader :links="links"></AppHeader>
     <AppSideBar class="shadow-lg"></AppSideBar>
+    <AppChats></AppChats>
   </div>
 </template>
 
@@ -10,11 +11,13 @@ import { Options, Vue } from 'vue-class-component';
 import App from '@/App.vue';
 import AppHeader from '../components/layout/Header/AppHeader.vue';
 import AppSideBar from '../components/layout/Sidebar/AppSideBar.vue';
+import AppChats from '@/components/layout/Chats/AppChats.vue';
 
 @Options({
   components: {
     AppHeader,
-    AppSideBar
+    AppSideBar,
+    AppChats
   },
   data: () => {
     return {
@@ -24,3 +27,12 @@ import AppSideBar from '../components/layout/Sidebar/AppSideBar.vue';
 })
 export default class HomeView extends Vue {}
 </script>
+
+<style scoped lang="scss">
+
+#home{
+  background: --page-background;
+  height: 100%;
+}
+
+</style>

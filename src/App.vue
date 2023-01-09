@@ -21,32 +21,39 @@ html,body{
 
 .light{
   //Website colors
-  --primary-color: rgb(111, 89, 224);
-  --secondary-color: rgb(54, 54, 189);
-  --page-background: rgb(255, 255, 255);
+  --primary-color: rgb(0, 0, 0);
+  --secondary-color: rgb(0, 0, 0);
+  --page-background: rgb(0, 0, 0);
+
+
 
   //Header, navbar, top-page
-  --header-background: rgb(32, 8, 72);
-  --header-bottom-border-background: rgb(32, 21, 129);
-  --header-color: black;
+  --header-background: rgb(66, 66, 66);
+  --header-bottom-border-background: rgb(90, 90, 90);
+  --header-color: rgb(39, 39, 39);
   --header-height: 30px;
   --header-width: 100%;
 
   //Sidebar
   --sidebar-width: 200px;
   --sidebar-height: 100vh;
-  --sidebar-background: rgb(37, 27, 104);
-  --sidebar-container-background: rgb(108, 86, 218);
+  --sidebar-background: rgb(60, 60, 60);
+  --sidebar-container-background: rgb(72, 72, 72);
+  --sidebar-container-header-background: black;
 
-  --sidebar-room-item-background: linear-gradient(90deg,rgb(50, 93, 110),rgb(52, 60, 165));
+  --sidebar-room-item-background: linear-gradient(90deg,rgb(50, 93, 110),rgb(93, 93, 93));
   --sidebar-room-item-color: white;
+
+
+  --chats-container-background: rgb(41, 41, 41);
+  --chats-window-background: rgb(91, 91, 91);
 }
 
 //TODO
 .dark{
  --primary-color: rgb(0, 0, 0);
-  --secondary-color: blue;
-  --page-background: rgb(43, 46, 46);
+--secondary-color: blue;
+--page-background: rgb(136 111 239);
 
   //Header, navbar, top-page
   --header-background: rgb(255, 255, 255);
